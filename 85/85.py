@@ -12,9 +12,9 @@ target = 2*10**6
 
 r = 0
 
-distance = None;
+distance = None
 closestn = 0
-closestm = 0;
+closestm = 0
 
 n = 0
 while True:
@@ -28,7 +28,7 @@ while True:
             distance = abs(target - rectangles)
             closestm = m
             closestn = n
-            
+
         if rectangles > target:
             break
 
